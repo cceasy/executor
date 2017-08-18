@@ -4,9 +4,9 @@ import (
 	"io"
 	"sync"
 
-	"code.cloudfoundry.org/executor"
-	"code.cloudfoundry.org/executor/depot/containerstore"
-	"code.cloudfoundry.org/executor/depot/event"
+	"github.com/cceasy/executor"
+	"github.com/cceasy/executor/depot/containerstore"
+	"github.com/cceasy/executor/depot/event"
 	"code.cloudfoundry.org/garden"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/volman"
@@ -119,6 +119,8 @@ func (c *client) RunContainer(logger lager.Logger, request *executor.RunRequest)
 	logger = logger.Session("run-container", lager.Data{
 		"guid": request.Guid,
 	})
+	// XXX ljh
+	logger.Info("## depot # RunContainer", lager.Data{"request": request})
 
 	logger.Debug("initializing-container")
 	err := c.containerStore.Initialize(logger, request)

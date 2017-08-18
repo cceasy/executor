@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"code.cloudfoundry.org/executor"
-	"code.cloudfoundry.org/executor/depot/event"
-	"code.cloudfoundry.org/executor/depot/transformer"
+	"github.com/cceasy/executor"
+	"github.com/cceasy/executor/depot/event"
+	"github.com/cceasy/executor/depot/transformer"
 	"code.cloudfoundry.org/garden"
 	"code.cloudfoundry.org/garden/server"
 	loggregator_v2 "code.cloudfoundry.org/go-loggregator/compatibility"

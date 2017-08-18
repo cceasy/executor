@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	"code.cloudfoundry.org/executor/depot/log_streamer"
+	"github.com/cceasy/executor/depot/log_streamer"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

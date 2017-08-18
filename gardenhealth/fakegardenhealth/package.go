@@ -1,1 +1,1 @@
-package fakegardenhealth // import "code.cloudfoundry.org/executor/gardenhealth/fakegardenhealth"
+package fakegardenhealth // import "github.com/cceasy/executor/gardenhealth/fakegardenhealth"

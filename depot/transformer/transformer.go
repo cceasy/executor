@@ -12,10 +12,10 @@ import (
 	"code.cloudfoundry.org/bbs/models"
 	"code.cloudfoundry.org/cacheddownloader"
 	"code.cloudfoundry.org/clock"
-	"code.cloudfoundry.org/executor"
-	"code.cloudfoundry.org/executor/depot/log_streamer"
-	"code.cloudfoundry.org/executor/depot/steps"
-	"code.cloudfoundry.org/executor/depot/uploader"
+	"github.com/cceasy/executor"
+	"github.com/cceasy/executor/depot/log_streamer"
+	"github.com/cceasy/executor/depot/steps"
+	"github.com/cceasy/executor/depot/uploader"
 	"code.cloudfoundry.org/garden"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/workpool"
@@ -321,6 +321,8 @@ func (t *transformer) StepsRunner(
 	gardenContainer garden.Container,
 	logStreamer log_streamer.LogStreamer,
 ) (ifrit.Runner, error) {
+	// XXX ljh
+	logger.Info("## transformer # StepsRunner", lager.Data{"container": container})
 	var setup, action, postSetup, monitor steps.Step
 	if container.Setup != nil {
 		setup = t.StepFor(

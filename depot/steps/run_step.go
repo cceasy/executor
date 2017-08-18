@@ -9,8 +9,8 @@ import (
 
 	"code.cloudfoundry.org/bbs/models"
 	"code.cloudfoundry.org/clock"
-	"code.cloudfoundry.org/executor"
-	"code.cloudfoundry.org/executor/depot/log_streamer"
+	"github.com/cceasy/executor"
+	"github.com/cceasy/executor/depot/log_streamer"
 	"code.cloudfoundry.org/garden"
 	"code.cloudfoundry.org/lager"
 )

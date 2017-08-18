@@ -5,7 +5,7 @@ import (
 	"io"
 	"sync"
 
-	"code.cloudfoundry.org/executor"
+	"github.com/cceasy/executor"
 	"code.cloudfoundry.org/lager"
 )
 

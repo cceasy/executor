@@ -19,11 +19,11 @@ import (
 	"github.com/onsi/gomega/gbytes"
 
 	Compressor "code.cloudfoundry.org/archiver/compressor"
-	"code.cloudfoundry.org/executor/depot/log_streamer/fake_log_streamer"
-	"code.cloudfoundry.org/executor/depot/steps"
-	Uploader "code.cloudfoundry.org/executor/depot/uploader"
-	"code.cloudfoundry.org/executor/depot/uploader/fake_uploader"
-	"code.cloudfoundry.org/executor/fakes"
+	"github.com/cceasy/executor/depot/log_streamer/fake_log_streamer"
+	"github.com/cceasy/executor/depot/steps"
+	Uploader "github.com/cceasy/executor/depot/uploader"
+	"github.com/cceasy/executor/depot/uploader/fake_uploader"
+	"github.com/cceasy/executor/fakes"
 	"code.cloudfoundry.org/lager/lagertest"
 )
 

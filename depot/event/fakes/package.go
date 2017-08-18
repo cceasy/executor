@@ -1,1 +1,1 @@
-package fakes // import "code.cloudfoundry.org/executor/depot/event/fakes"
+package fakes // import "github.com/cceasy/executor/depot/event/fakes"

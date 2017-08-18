@@ -18,7 +18,7 @@ import (
 	"github.com/tedsuo/ifrit"
 
 	"code.cloudfoundry.org/clock"
-	"code.cloudfoundry.org/executor"
+	"github.com/cceasy/executor"
 	"code.cloudfoundry.org/garden"
 	loggregator_v2 "code.cloudfoundry.org/go-loggregator/compatibility"
 	"code.cloudfoundry.org/lager"

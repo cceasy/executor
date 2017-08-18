@@ -4,7 +4,7 @@ package fakegardenhealth
 import (
 	"sync"
 
-	"code.cloudfoundry.org/executor/gardenhealth"
+	"github.com/cceasy/executor/gardenhealth"
 	"code.cloudfoundry.org/lager"
 )
 

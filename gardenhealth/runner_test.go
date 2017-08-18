@@ -6,13 +6,13 @@ import (
 	"sync"
 	"time"
 
-	"code.cloudfoundry.org/executor/gardenhealth"
+	"github.com/cceasy/executor/gardenhealth"
 	"github.com/tedsuo/ifrit"
 	"github.com/tedsuo/ifrit/ginkgomon"
 
 	"code.cloudfoundry.org/clock/fakeclock"
-	fakeexecutor "code.cloudfoundry.org/executor/fakes"
-	"code.cloudfoundry.org/executor/gardenhealth/fakegardenhealth"
+	fakeexecutor "github.com/cceasy/executor/fakes"
+	"github.com/cceasy/executor/gardenhealth/fakegardenhealth"
 	mfakes "code.cloudfoundry.org/go-loggregator/testhelpers/fakes/v1"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"

@@ -10,9 +10,9 @@ import (
 	. "github.com/onsi/gomega"
 
 	"code.cloudfoundry.org/clock/fakeclock"
-	"code.cloudfoundry.org/executor"
-	"code.cloudfoundry.org/executor/depot/metrics"
-	"code.cloudfoundry.org/executor/fakes"
+	"github.com/cceasy/executor"
+	"github.com/cceasy/executor/depot/metrics"
+	"github.com/cceasy/executor/fakes"
 	mfakes "code.cloudfoundry.org/go-loggregator/testhelpers/fakes/v1"
 	"code.cloudfoundry.org/lager/lagertest"
 	"github.com/tedsuo/ifrit"

@@ -1,1 +1,1 @@
-package uploader // import "code.cloudfoundry.org/executor/depot/uploader"
+package uploader // import "github.com/cceasy/executor/depot/uploader"

@@ -1,1 +1,1 @@
-package log_streamer // import "code.cloudfoundry.org/executor/depot/log_streamer"
+package log_streamer // import "github.com/cceasy/executor/depot/log_streamer"

@@ -8,8 +8,8 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"
 
-	"code.cloudfoundry.org/executor/depot/steps"
-	"code.cloudfoundry.org/executor/depot/steps/fakes"
+	"github.com/cceasy/executor/depot/steps"
+	"github.com/cceasy/executor/depot/steps/fakes"
 )
 
 var _ = Describe("TryStep", func() {

@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/clock"
-	"code.cloudfoundry.org/executor/depot/log_streamer"
+	"github.com/cceasy/executor/depot/log_streamer"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/workpool"
 )

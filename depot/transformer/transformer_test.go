@@ -10,9 +10,9 @@ import (
 
 	"code.cloudfoundry.org/bbs/models"
 	"code.cloudfoundry.org/clock/fakeclock"
-	"code.cloudfoundry.org/executor"
-	"code.cloudfoundry.org/executor/depot/log_streamer"
-	"code.cloudfoundry.org/executor/depot/transformer"
+	"github.com/cceasy/executor"
+	"github.com/cceasy/executor/depot/log_streamer"
+	"github.com/cceasy/executor/depot/transformer"
 	"code.cloudfoundry.org/garden"
 	"code.cloudfoundry.org/garden/gardenfakes"
 	mfakes "code.cloudfoundry.org/go-loggregator/testhelpers/fakes/v1"

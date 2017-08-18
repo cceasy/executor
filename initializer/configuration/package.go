@@ -1,1 +1,1 @@
-package configuration // import "code.cloudfoundry.org/executor/initializer/configuration"
+package configuration // import "github.com/cceasy/executor/initializer/configuration"

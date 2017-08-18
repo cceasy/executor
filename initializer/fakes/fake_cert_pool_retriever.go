@@ -5,7 +5,7 @@ import (
 	"crypto/x509"
 	"sync"
 
-	"code.cloudfoundry.org/executor/initializer"
+	"github.com/cceasy/executor/initializer"
 )
 
 type FakeCertPoolRetriever struct {

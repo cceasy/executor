@@ -4,7 +4,7 @@ package fakeguidgen
 import (
 	"sync"
 
-	"code.cloudfoundry.org/executor/guidgen"
+	"github.com/cceasy/executor/guidgen"
 	"code.cloudfoundry.org/lager"
 )
 

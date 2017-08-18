@@ -16,7 +16,7 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/cfhttp"
-	"code.cloudfoundry.org/executor/depot/uploader"
+	"github.com/cceasy/executor/depot/uploader"
 	"code.cloudfoundry.org/lager/lagertest"
 
 	. "github.com/onsi/ginkgo"

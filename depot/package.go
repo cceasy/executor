@@ -1,1 +1,1 @@
-package depot // import "code.cloudfoundry.org/executor/depot"
+package depot // import "github.com/cceasy/executor/depot"

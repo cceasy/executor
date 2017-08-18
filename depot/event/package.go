@@ -1,1 +1,1 @@
-package event // import "code.cloudfoundry.org/executor/depot/event"
+package event // import "github.com/cceasy/executor/depot/event"

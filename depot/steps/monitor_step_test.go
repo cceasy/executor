@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/clock/fakeclock"
-	"code.cloudfoundry.org/executor/depot/log_streamer/fake_log_streamer"
-	"code.cloudfoundry.org/executor/depot/steps"
-	"code.cloudfoundry.org/executor/depot/steps/fakes"
+	"github.com/cceasy/executor/depot/log_streamer/fake_log_streamer"
+	"github.com/cceasy/executor/depot/steps"
+	"github.com/cceasy/executor/depot/steps/fakes"
 	"code.cloudfoundry.org/lager/lagertest"
 	"code.cloudfoundry.org/workpool"
 

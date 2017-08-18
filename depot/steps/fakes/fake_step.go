@@ -4,7 +4,7 @@ package fakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/executor/depot/steps"
+	"github.com/cceasy/executor/depot/steps"
 )
 
 type FakeStep struct {

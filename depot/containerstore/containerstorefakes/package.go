@@ -1,1 +1,1 @@
-package containerstorefakes // import "code.cloudfoundry.org/executor/depot/containerstore/containerstorefakes"
+package containerstorefakes // import "github.com/cceasy/executor/depot/containerstore/containerstorefakes"

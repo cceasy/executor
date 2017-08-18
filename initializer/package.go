@@ -1,1 +1,1 @@
-package initializer // import "code.cloudfoundry.org/executor/initializer"
+package initializer // import "github.com/cceasy/executor/initializer"

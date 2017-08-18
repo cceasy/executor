@@ -5,7 +5,7 @@ import (
 	"io"
 	"sync"
 
-	"code.cloudfoundry.org/executor/depot/log_streamer"
+	"github.com/cceasy/executor/depot/log_streamer"
 )
 
 type FakeLogStreamer struct {

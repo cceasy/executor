@@ -1,7 +1,7 @@
 package steps
 
 import (
-	"code.cloudfoundry.org/executor/depot/log_streamer"
+	"github.com/cceasy/executor/depot/log_streamer"
 
 	"code.cloudfoundry.org/lager"
 )

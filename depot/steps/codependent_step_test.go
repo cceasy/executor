@@ -8,8 +8,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"code.cloudfoundry.org/executor/depot/steps"
-	"code.cloudfoundry.org/executor/depot/steps/fakes"
+	"github.com/cceasy/executor/depot/steps"
+	"github.com/cceasy/executor/depot/steps/fakes"
 )
 
 var _ = Describe("CodependentStep", func() {

@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"errors"
 
-	"code.cloudfoundry.org/executor/depot/steps"
-	"code.cloudfoundry.org/executor/depot/steps/fakes"
+	"github.com/cceasy/executor/depot/steps"
+	"github.com/cceasy/executor/depot/steps/fakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

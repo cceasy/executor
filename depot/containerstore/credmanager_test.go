@@ -16,8 +16,8 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/clock/fakeclock"
-	"code.cloudfoundry.org/executor"
-	"code.cloudfoundry.org/executor/depot/containerstore"
+	"github.com/cceasy/executor"
+	"github.com/cceasy/executor/depot/containerstore"
 	"code.cloudfoundry.org/garden"
 	mfakes "code.cloudfoundry.org/go-loggregator/testhelpers/fakes/v1"
 	"code.cloudfoundry.org/lager"

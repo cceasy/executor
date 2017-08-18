@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"code.cloudfoundry.org/bbs/models"
-	"code.cloudfoundry.org/executor"
-	"code.cloudfoundry.org/executor/depot/log_streamer"
+	"github.com/cceasy/executor"
+	"github.com/cceasy/executor/depot/log_streamer"
 	"code.cloudfoundry.org/garden"
 	loggregator_v2 "code.cloudfoundry.org/go-loggregator/compatibility"
 	"code.cloudfoundry.org/lager"

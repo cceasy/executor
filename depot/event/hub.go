@@ -2,7 +2,7 @@ package event
 
 import (
 	"code.cloudfoundry.org/eventhub"
-	"code.cloudfoundry.org/executor"
+	"github.com/cceasy/executor"
 )
 
 const SUBSCRIBER_BUFFER = 1024

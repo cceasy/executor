@@ -1,6 +1,6 @@
 # Executor
 
-**Note**: This repository should be imported as `code.cloudfoundry.org/executor`.
+**Note**: This repository should be imported as `github.com/cceasy/executor`.
 
 Let me run that for you
 

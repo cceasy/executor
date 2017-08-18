@@ -1,1 +1,1 @@
-package fake_log_streamer // import "code.cloudfoundry.org/executor/depot/log_streamer/fake_log_streamer"
+package fake_log_streamer // import "github.com/cceasy/executor/depot/log_streamer/fake_log_streamer"

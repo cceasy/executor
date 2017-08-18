@@ -1,1 +1,1 @@
-package metrics // import "code.cloudfoundry.org/executor/depot/metrics"
+package metrics // import "github.com/cceasy/executor/depot/metrics"

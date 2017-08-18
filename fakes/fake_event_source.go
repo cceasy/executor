@@ -4,7 +4,7 @@ package fakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/executor"
+	"github.com/cceasy/executor"
 )
 
 type FakeEventSource struct {

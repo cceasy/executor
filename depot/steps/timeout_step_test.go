@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"code.cloudfoundry.org/executor/depot/steps"
-	"code.cloudfoundry.org/executor/depot/steps/fakes"
+	"github.com/cceasy/executor/depot/steps"
+	"github.com/cceasy/executor/depot/steps/fakes"
 	"code.cloudfoundry.org/lager/lagertest"
 
 	. "github.com/onsi/ginkgo"

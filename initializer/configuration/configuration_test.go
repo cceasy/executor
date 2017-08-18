@@ -3,9 +3,9 @@ package configuration_test
 import (
 	"errors"
 
-	"code.cloudfoundry.org/executor"
-	"code.cloudfoundry.org/executor/fakes"
-	"code.cloudfoundry.org/executor/initializer/configuration"
+	"github.com/cceasy/executor"
+	"github.com/cceasy/executor/fakes"
+	"github.com/cceasy/executor/initializer/configuration"
 	"code.cloudfoundry.org/garden"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -4,8 +4,8 @@ package fakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/executor"
-	"code.cloudfoundry.org/executor/depot/event"
+	"github.com/cceasy/executor"
+	"github.com/cceasy/executor/depot/event"
 )
 
 type FakeHub struct {

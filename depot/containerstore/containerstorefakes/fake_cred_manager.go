@@ -4,8 +4,8 @@ package containerstorefakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/executor"
-	"code.cloudfoundry.org/executor/depot/containerstore"
+	"github.com/cceasy/executor"
+	"github.com/cceasy/executor/depot/containerstore"
 	"code.cloudfoundry.org/garden"
 	"code.cloudfoundry.org/lager"
 	"github.com/tedsuo/ifrit"

@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"sync"
 
-	"code.cloudfoundry.org/executor/depot/uploader"
+	"github.com/cceasy/executor/depot/uploader"
 )
 
 type FakeUploader struct {

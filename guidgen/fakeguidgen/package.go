@@ -1,1 +1,1 @@
-package fakeguidgen // import "code.cloudfoundry.org/executor/guidgen/fakeguidgen"
+package fakeguidgen // import "github.com/cceasy/executor/guidgen/fakeguidgen"
